@@ -1,0 +1,73 @@
+.tab {
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+     font-size: 40px;
+    overflow: hidden;
+   
+  }
+  
+  /* Стиль кнопок, которые используются для открытия содержимого вкладки */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.9s;
+  }
+  
+  /* Изменение цвета фона кнопок при наведении курсора */
+  .tab button:hover {
+   
+  }
+  
+  /* Создание активного/текущего класса связи вкладки */
+  .tab button.active {
+  
+  }
+  
+  /* Стиль содержимого вкладки */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+   
+    border-top: none;
+  }
+
+/* ------------------------- скрыть содержимое вкладки, добавьте следующий CSS:---------------------------------- */
+  .tabcontent {
+    animation: fadeEffect 2s; /* Эффект затухания занимает 1 секунду */
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+ 
+  }
+
+  .tablinks{
+    font-weight: 400; 
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.okraska{
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+  
+  /* Перейти от нуля к полной непрозрачности */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+/* ===============================================КНОПКА=================================================== */
+p{
+
+}
